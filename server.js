@@ -7,6 +7,7 @@ const app = express();
 const allowedOrigins = [
   'https://hartzell.netlify.app',      // Your actual Netlify domain
   'https://hartzell-base.netlify.app',  // Alternative domain
+  'https://hartzell-staging.netlify.app', // Staging domain
   'http://localhost:8080',
   'http://localhost:3000',
   'http://127.0.0.1:8080'
